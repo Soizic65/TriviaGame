@@ -17,9 +17,53 @@
         </div>
     <div id="gamePlay" class="text-center">
         <h1 id="timeRemaining">Remaining Time: <span id="timer"></span></h1>
+        <p id="questionOne">1. Who was successful on the dressage horse, Valegro?</p>
+        <ul class="qoneanswers">
+            <input type="radio" name="radio1" value="SP">Stephen Peters
+            <input type="radio" name="radio1" value="CD">Charlotte Dujardin
+            <input type="radio" name="radio1" value="LG">Laura Graves
+            <input type="radio" name="radio1" value="IW">Isabelle Werth
+        </ul>
+        <p id="questionTwo">2. What is the name of Laura Graves' horse?</p>
+        <ul class="qtwoanswers">
+            <input type="radio" name="radio2" value="V">Verdades
+            <input type="radio" name="radio2" value="M">Midnight
+            <input type="radio" name="radio2" value="T">Totilas
+            <input type="radio" name="radio2" value="S">Sophiana
+        </ul>
+        <p id="questionThree">3. What are the three stages of eventing?</p>
+        <ul class="qthreeanswers">
+            <input type="radio" name="radio3" value="driving">Driving, Running, Walking
+            <input type="radio" name="radio3" value="hauling">Hauling, Hunter U/S, Flat
+            <input type="radio" name="radio3" value="real">Dressage, Cross Country, Showjumping
+            <input type="radio" name="radio3" value="fake">Flying, Trotting, Racing
+        </ul>
+        <p id="questionFour">4. Who is the top German dressage rider?</p>
+        <ul class="qfouranswers">
+            <input type="radio" name="radio4" value="LG">Laura Graves
+            <input type="radio" name="radio4" value="EG">Edward Gal
+            <input type="radio" name="radio4" value="BM">Boyd Martin
+            <input type="radio" name="radio4" value="IW">Isabelle Werth
+        </ul>
+        <p id="questionFive">5. Which discipline would most fit the description, "ballet for horses?"</p>
+        <ul class="qfiveanswers">
+            <input type="radio" name="radio5" value="D">Dressage
+            <input type="radio" name="radio5" value="CC">Cross Country
+            <input type="radio" name="radio5" value="DR">Driving
+            <input type="radio" name="radio5" value="SS">Saddleseat
+        </ul>
         <div id="submit" class="text-center mt-auto">
-                <button type="button" class="btn btn-success">Submit</button>
-        </div>
+            <button type="button" class="btn btn-success">Submit</button>
+    </div>
+
+    </div>
+    <div id="outoftime" class="text-center">
+        <h1>You're out of time!</h1>
+    </div>
+    <div id="results" class="text-center">
+        <h2 id="correct">Correct Answers: <span id="correct"></span></h2>
+        <h2 id="incorrect">Incorrect Answers: <span id="incorrect"></span></h2>
+        <h2 id="unanswered">Unanswered: <span id="unanswered"></span></h2>
     </div>
     <div id="start" class="text-center">
         <button type="button" id = "startgame" class="btn btn-success">Start Game!</button>

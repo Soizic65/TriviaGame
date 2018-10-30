@@ -22,3 +22,16 @@ body{
 #gamePlay{
     display:none;
 }
+#outoftime{
+    display:none;
+}
+#results{
+    display:none;
+}
+h2{
+    color:green;
+}
+p{
+    color:green;
+    font-size:30px;
+}

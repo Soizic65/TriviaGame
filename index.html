@@ -17,44 +17,46 @@
         </div>
     <div id="gamePlay" class="text-center">
         <h1 id="timeRemaining">Remaining Time: <span id="timer"></span></h1>
-        <p id="questionOne">1. Who was successful on the dressage horse, Valegro?</p>
-        <ul class="qoneanswers">
-            <input type="radio" name="radio1" value="SP">Stephen Peters
-            <input type="radio" name="radio1" value="CD">Charlotte Dujardin
-            <input type="radio" name="radio1" value="LG">Laura Graves
-            <input type="radio" name="radio1" value="IW">Isabelle Werth
-        </ul>
-        <p id="questionTwo">2. What is the name of Laura Graves' horse?</p>
-        <ul class="qtwoanswers">
-            <input type="radio" name="radio2" value="V">Verdades
-            <input type="radio" name="radio2" value="M">Midnight
-            <input type="radio" name="radio2" value="T">Totilas
-            <input type="radio" name="radio2" value="S">Sophiana
-        </ul>
-        <p id="questionThree">3. What are the three stages of eventing?</p>
-        <ul class="qthreeanswers">
-            <input type="radio" name="radio3" value="driving">Driving, Running, Walking
-            <input type="radio" name="radio3" value="hauling">Hauling, Hunter U/S, Flat
-            <input type="radio" name="radio3" value="real">Dressage, Cross Country, Showjumping
-            <input type="radio" name="radio3" value="fake">Flying, Trotting, Racing
-        </ul>
-        <p id="questionFour">4. Who is the top German dressage rider?</p>
-        <ul class="qfouranswers">
-            <input type="radio" name="radio4" value="LG">Laura Graves
-            <input type="radio" name="radio4" value="EG">Edward Gal
-            <input type="radio" name="radio4" value="BM">Boyd Martin
-            <input type="radio" name="radio4" value="IW">Isabelle Werth
-        </ul>
-        <p id="questionFive">5. Which discipline would most fit the description, "ballet for horses?"</p>
-        <ul class="qfiveanswers">
-            <input type="radio" name="radio5" value="D">Dressage
-            <input type="radio" name="radio5" value="CC">Cross Country
-            <input type="radio" name="radio5" value="DR">Driving
-            <input type="radio" name="radio5" value="SS">Saddleseat
-        </ul>
+        <div id="questions">
+            <p id="questionOne">1. Who was successful on the dressage horse, Valegro?</p>
+            <ul class="qoneanswers">
+                <input type="radio" name="questionOne" value="w" class="button">Stephen Peters
+                <input type="radio" name="questionOne" value="r" class = "button">Charlotte Dujardin
+                <input type="radio" name="questionOne" value="w" class = "button">Laura Graves
+                <input type="radio" name="questionOne" value="w" class = "button">Isabelle Werth
+            </ul>
+            <p id="questionTwo">2. What is the name of Laura Graves' horse?</p>
+            <ul class="qtwoanswers">
+                <input type="radio" name="questionTwo" value="r" class = "button">Verdades
+                <input type="radio" name="questionTwo" value="w" class = "button">Midnight
+                <input type="radio" name="questionTwo" value="w" class = "button">Totilas
+                <input type="radio" name="questionTwo" value="w" class = "button">Sophiana
+            </ul>
+            <p id="questionThree">3. What are the three stages of eventing?</p>
+            <ul class="qthreeanswers">
+                <input type="radio" name="questionThree" value="w" class = "button">Driving, Running, Walking
+                <input type="radio" name="questionThree" value="w" class = "button">Hauling, Hunter U/S, Flat
+                <input type="radio" name="questionThree" value="r" class = "button">Dressage, Cross Country, Showjumping
+                <input type="radio" name="questionThree" value="w" class = "button">Flying, Trotting, Racing
+            </ul>
+            <p id="questionFour">4. Who is the top German dressage rider?</p>
+            <ul class="qfouranswers">
+                <input type="radio" name="questionFour" value="w" class = "button">Laura Graves
+                <input type="radio" name="questionFour" value="w" class = "button">Edward Gal
+                <input type="radio" name="questionFour" value="w" class = "button">Boyd Martin
+                <input type="radio" name="questionFour" value="r" class = "button">Isabelle Werth
+            </ul>
+            <p id="questionFive">5. Which discipline would most fit the description, "ballet for horses?"</p>
+            <ul class="qfiveanswers">
+                <input type="radio" name="questionFive" value="r" class = "button">Dressage
+                <input type="radio" name="questionFive" value="w" class = "button">Cross Country
+                <input type="radio" name="questionFive" value="w" class = "button">Driving
+                <input type="radio" name="questionFive" value="w" class = "button">Saddleseat
+            </ul>
+        </div>
         <div id="submit" class="text-center mt-auto">
             <button type="button" class="btn btn-success">Submit</button>
-    </div>
+        </div>
 
     </div>
     <div id="outoftime" class="text-center">
@@ -64,37 +66,17 @@
         <h2 id="correct">Correct Answers: <span id="correct"></span></h2>
         <h2 id="incorrect">Incorrect Answers: <span id="incorrect"></span></h2>
         <h2 id="unanswered">Unanswered: <span id="unanswered"></span></h2>
+
+        <div id="restart" class="text-center">
+            <button type="button" id = "restartGame" class="btn btn-success">Restart!</button>
+        </div>
     </div>
     <div id="start" class="text-center">
         <button type="button" id = "startgame" class="btn btn-success">Start Game!</button>
     </div>
     
     
-    
-    
-    
 
-    
-    
-            
-    
- 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </div>
 </body>
 
